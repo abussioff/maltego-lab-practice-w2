@@ -1,4 +1,11 @@
 # maltego-lab-practice-w2
+<img width="621" height="482" alt="image" src="https://github.com/user-attachments/assets/c6f25fb9-712d-4418-875e-301c6f00c039" />
+<img width="1720" height="879" alt="image" src="https://github.com/user-attachments/assets/84249d6c-d972-4279-b2eb-625c5aef19d9" />
+<img width="1887" height="904" alt="image" src="https://github.com/user-attachments/assets/4add95ec-896f-42b8-9f16-9b8ce7e97388" />
+<img width="1716" height="893" alt="image" src="https://github.com/user-attachments/assets/16c65217-0fe7-44fa-a455-8169ba4e8be3" />
+<img width="1722" height="897" alt="image" src="https://github.com/user-attachments/assets/9a66a2b8-ab61-4b63-afae-64c6edc04126" />
+<img width="1709" height="899" alt="image" src="https://github.com/user-attachments/assets/d76e0802-6372-4a71-af7f-6fda18a9cef2" />
+<img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/d6678adb-b547-4839-9186-e432f9b51ffb" />
 Maltego Setup & OSINT Reconnaissance Technical Report 🚀
 This technical report provides an end-to-end operational walkthrough of installing Maltego Graph Desktop (v4.12.1), setting up authentication credentials, initializing the workspace environment, and conducting Open Source Intelligence (OSINT) recon transforms on specified target entities.
 
