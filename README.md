@@ -6,6 +6,52 @@
 <img width="1722" height="897" alt="image" src="https://github.com/user-attachments/assets/9a66a2b8-ab61-4b63-afae-64c6edc04126" />
 <img width="1709" height="899" alt="image" src="https://github.com/user-attachments/assets/d76e0802-6372-4a71-af7f-6fda18a9cef2" />
 <img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/d6678adb-b547-4839-9186-e432f9b51ffb" />
+<img width="907" height="550" alt="image" src="https://github.com/user-attachments/assets/bf555c37-daf4-4f0e-8964-6a0d0afaef71" />
+<img width="1910" height="266" alt="image" src="https://github.com/user-attachments/assets/a2cba943-fa02-4d4e-98cd-b79e5cd2244b" />
+<img width="940" height="188" alt="image" src="https://github.com/user-attachments/assets/1f7b1a0e-7855-4d2e-a322-38a78f8e81f7" />
+<img width="1907" height="315" alt="image" src="https://github.com/user-attachments/assets/3daaaeaf-989e-49b3-bd61-e8328e76f304" />
+<img width="1517" height="513" alt="image" src="https://github.com/user-attachments/assets/e4f07655-8869-45e2-8717-eb82a2a00b9a" />
+<img width="1616" height="687" alt="image" src="https://github.com/user-attachments/assets/bfb94657-3455-4a40-b0ec-7f1c24b86bd6" />
+<img width="1675" height="761" alt="image" src="https://github.com/user-attachments/assets/f3c8840b-f1fd-472a-8d3a-689fa6761beb" />
+This reconnaissance assessment report synthesizes security findings collected from terminal enumeration activities targeting networkwalks.com and microsoft.com.
+
+Target Infrastructure & DNS Analysis: networkwalks.com
+
+Primary IP Address: 192.232.216.135
+
+Domain Registrar: GoDaddy, LLC (Creation Date: Nov 6, 2019 | Expiry Date: Nov 6, 2027)
+
+Name Servers: NS6135.HOSTGATOR.COM, NS6136.HOSTGATOR.COM
+
+DNS Version Exposure: dnsrecon identified the running DNS server version as BIND 9.16.23-RH.
+
+Mail & Service Configuration: MX record points directly to mail.networkwalks.com (192.232.216.135). Active SPF TXT records and cPanel email auto-discovery SRV records (cpanelemaildiscovery.cpanel.net) were enumerated.
+
+Web Technology & Application Stack
+
+Web Server Architecture: Apache web server operating alongside an Nginx reverse-proxy/caching layer (x-nginx-cache: WordPress).
+
+CMS & Extensions: WordPress CMS (detected version 7.1 meta tag) utilizing WordPress Download Manager v3.3.58.
+
+Frontend Libraries: Bootstrap v7.1, jQuery v3.7.1, Google Tag Manager.
+
+Security & Headers: HTTP/2 200 response returning permissions-policy, referrer-policy, and HttpOnly security flags on session cookies (__wpdm_client). WAF detection scan was executed via wafw00f.
+
+Subdomain Enumeration: microsoft.com
+
+Harvested Subdomains: theHarvester successfully identified 13 unique hosts via the Baidu search engine, including azure.microsoft.com, developer.microsoft.com, hxd.research.microsoft.com, securitycopilot.microsoft.com, and support.serviceshub.microsoft.com.
+
+Tool Configuration Notice: Secondary passive search modules (Censys, BuiltWith, Brave, CriminalIP, Bevigil) failed to execute due to unconfigured API keys in /etc/theHarvester/api-keys.yaml.
+
+Key Recommendations
+
+Hide Server Banners: Obfuscate the BIND DNS version banner (9.16.23-RH) to prevent adversary targeted exploit profiling.
+
+Component Patching: Maintain strict update schedules for WordPress plugins like WordPress Download Manager to mitigate known application vulnerabilities.
+
+API Configuration: Populate API keys within theHarvester configuration file to expand passive intelligence coverage across external attack surfaces.
+
+
 
 Maltego Setup & OSINT Reconnaissance Technical Report 🚀
 This technical report provides an end-to-end operational walkthrough of installing Maltego Graph Desktop (v4.12.1), setting up authentication credentials, initializing the workspace environment, and conducting Open Source Intelligence (OSINT) recon transforms on specified target entities.
