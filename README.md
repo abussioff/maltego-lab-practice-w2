@@ -6,6 +6,7 @@
 <img width="1722" height="897" alt="image" src="https://github.com/user-attachments/assets/9a66a2b8-ab61-4b63-afae-64c6edc04126" />
 <img width="1709" height="899" alt="image" src="https://github.com/user-attachments/assets/d76e0802-6372-4a71-af7f-6fda18a9cef2" />
 <img width="1919" height="1017" alt="image" src="https://github.com/user-attachments/assets/d6678adb-b547-4839-9186-e432f9b51ffb" />
+
 Maltego Setup & OSINT Reconnaissance Technical Report 🚀
 This technical report provides an end-to-end operational walkthrough of installing Maltego Graph Desktop (v4.12.1), setting up authentication credentials, initializing the workspace environment, and conducting Open Source Intelligence (OSINT) recon transforms on specified target entities.
 
